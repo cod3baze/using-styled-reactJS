@@ -3,7 +3,11 @@ import React from "react";
 import { Container } from "./styles";
 
 function SideBar() {
-  return <Container />;
+  return (
+    <div>
+      <Container>Hello, World!</Container>
+    </div>
+  );
 }
 
 export default SideBar;
